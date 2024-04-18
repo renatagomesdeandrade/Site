@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-image: url(img/aerial-view-pink-beach-blue-ocean-wave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.login a{
+    /* Deixar a letra no maiusculo */
+    text-transform: uppercase;
+    /* Tirar o sublinhado que está em baixo da palavra login */
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #8c7b7c;
+    background-color: beige;
+    /* Espaçamento da parte de dentro */
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.icones{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 90px;
+    color: beige;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacoes p{
+    font-size: 30px;
+    color: beige;
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+#inputNome{
+    /* Largura */
+    width: 550px;
+    /* Altura */
+    height: 40px;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    border-style: none;
+}
+
+#inputEmail{
+    /* Largura */
+    width: 350px;
+    /* Altura */
+    height: 40px;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    border-style: none;
+}
+
+.botaoLogin{
+   width: 200px;
+   color: beige;
+   background-color: #8c7b7c;
+   border-radius: 15px;
+   font-size: 30px; 
+   /* Maiusculo */
+   text-transform: uppercase;
+   /* Tirar a borda */
+   border-style: none;
+   height: 40px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.redes img{
+    width: 40px;
+}
